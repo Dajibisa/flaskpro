@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p{
+            font-family: monospace;
+           
+            
+        
+        }
+       h1{
+           font-family: monospace;
+            font-size: 50px;
+        }
+        
+        p {
+	font-family: monospace;
+	font-size: 17px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+        table{
+            	font-family: monospace;
+	font-size: 17px;
+	line-height: 1.7;
+	color: brown;
+	margin: 0px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body>
+
+
+        
+
+       <center>
+           <h1>TEACHER PROFILE<BR>Welcome!!!</h1>
+
+        <br><br>
+
+        <p>Student ID: {{verify.ID}}</p>
+        <p>First name: {{verify.first_name}}</p>
+        <p>Address: {{verify.last_name}}</p>
+        <p>Email: {{verify.email}}</p>
+        <p>Year: {{verify.year}}</p>
+
+        <br>
+        <br>
+
+
+        <table>
+            <tr>
+                <th>teacher name</th>
+                <th>course name</th>
+                <th>course code</th>
+                <th>time of the day</th>
+            </tr>
+            {% for i in courses %}
+            <tr>
+                <td>{{i.teachername}}</td>
+                <td>{{i.coursename}}</td>
+                <td>{{i.coursecode}}</td>
+                <td>  {{i.time}}</td>
+            </tr>
+            {% endfor %}        
+        </table>
+
+
+     <!-- <a href="results.html">
+         <center>
+         <button type="button">
+         <h1 style="position: relative;"> </h1>
+         </button>
+         </center>
+    </a> -->
+</center>
+    </body>
+</html>

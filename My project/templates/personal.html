@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <style>
+        
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  margin-bottom: 35px;
+}
+
+.rs1-wrap-input100 {
+  width: calc((100% - 30px) / 2);
+}
+
+.label-input100 {
+  font-family: monospace;
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 2px;
+
+  font-family: monospace;
+  font-size: 20px;
+  color: #686868;
+    border-bottom-right-radius: 10px;
+  line-height: 1.2;
+  padding: 0 28px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  margin-top: 10px;
+}
+        
+        .input101 {
+  display: block;
+  width: 14%;
+  background-color: aqua;
+  border-radius: 4px;
+
+  font-family: monospace;
+  font-size: 20px;
+  color: #686868;
+    border-bottom-right-radius: 10px;
+  line-height: 1.2;
+  padding: 0 28px;
+            height: 35px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  margin-top: 10px;
+}
+
+
+/*---------------------------------------------*/
+input.input100 {
+  height: 62px;
+}
+
+
+textarea.input100 {
+  min-height: 162px;
+  padding-top: 19px;
+  padding-bottom: 13px;
+}
+
+.input100:focus {
+  background: #e6e6e6;
+}
+        
+        a {
+	font-family: Raleway-SemiBold;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Raleway-SemiBold;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+        h1{
+           font-family: monospace;
+            font-size: 50px;
+            
+        }
+ 
+    
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    <form action="/profile" method="post" >
+        <br>
+<!--
+        <input type="text" name="course_name" placeholder="Course_name">
+        <br>
+        <input type="text" name="name" placeholder="name">
+        <br>
+        <input type="text" name="lecturer" placeholder="lecturer">
+        <br>
+        <input type="password" name="password" placeholder="password">
+        <br>
+        <br>
+        <input type="submit" value="submit" placeholder="submit">
+-->
+        
+        
+        
+                 <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                    <span class="label-input100">Course *</span>
+                    <input class="input100" type="text" name="name" placeholder="Enter your course name" >
+                </div>
+        <br>
+               <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                    <span class="label-input100">Name *</span>
+                    <input class="input100" type="text" name="name" placeholder="Enter your name" >
+                </div>
+        <br>
+               <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                    <span class="label-input100">Lecturer *</span>
+                    <input class="input100" type="text" name="name" placeholder="Enter your lecturer name" >
+                </div>
+        <br>
+                
+               <div class="wrap-input100 rs1-wrap-input100 validate-input" >
+                    <span class="label-input100">Password *</span>
+                    <input class="input100" type="password" name="password" placeholder="Enter your valid password" >
+                </div>
+        <br>
+        <br>
+         <input type="submit"  class="input101" value="submit" placeholder="submit">
+        
+    </form>
+</center>
+</body>
+</html>
